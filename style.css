@@ -752,6 +752,7 @@ color: #F3F3F3;
         display: flex;
         justify-content: space-between;
         padding: 0px;
+        margin-top: 40px;
     }
 
     .feedback-common-style{
