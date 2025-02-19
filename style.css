@@ -192,13 +192,13 @@ body{
 
 .our-expertise-img img{
    width: 100%;
+   margin: 0px 0px -35px 0px;
 }
 
 .our-expertise-img{
     background-color: #E0F8F8;
     margin: 40px 15px;
-    border-radius: 25px 0px 25px 0px;  
-    height: 410px;
+    border-radius: 25px 0px 25px 0px; 
 }
 
 
@@ -243,13 +243,13 @@ body{
 
 .our-services-img img{
     width: 100%;
+    margin: 0px 0px -35px 0px;
  }
  
  .our-services-img{
      background-color: #E0F8F8;
      margin: 40px 15px;
      border-radius: 25px 0px 25px 0px;
-     height: 410px;
  }
 
 
@@ -264,18 +264,72 @@ body{
     font-weight: 700;
 }
 
-.testimonial p{
+.testimonial .size{
     font-size: 15px;
     color: var(--text-color);
     font-weight: 600;
     line-height: 26px;
 }
 
+.feedback{
+    padding: 25px;
+}
 .feedback img{
     margin: 15px 20px 10px 5px;
-    
 }
 
+.feedback-common-style{
+   
+    border-radius: 35px 4px;
+    border: 3px solid #D5DDDD;  
+    padding: 20px;
+    text-align: end;
+    margin-top: 25px;
+}
+
+.director{
+    display: flex;
+    gap: 15px;
+}
+
+.mt-3{
+    margin-top: -25px;
+}
+
+.common-style-1{
+    font-weight: 600;
+    font-size: 24px;
+    color: #1E1E1E;
+}
+
+.common-style-2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: -25px;
+    text-align: start;
+    color: #B0B0B0;
+}
+
+.feedback-common-style p{
+    text-align: left;
+    line-height: 27px;
+    letter-spacing: .7px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.bg-color{
+    background-color: var(--text-secondary-color);
+    border: none;
+}
+
+.bg-color p{
+    color: #FFFFFF;
+}
+ 
+.bg-color h5{
+    color: #FFFFFF;
+}
 
 /* ----------secti0n_5+_style---------- */
 .our-team{
@@ -687,21 +741,25 @@ color: #F3F3F3;
         word-spacing: -4px;
     }
 
-    .testimonial p{
+    .testimonial .size {
         width: 550px;
-        font-size: 17px;
+        font-size: 18px;
         font-weight: 500;
         margin-top: -10px; 
     }
 
     .feedback{
         display: flex;
-        gap: 20px;
-        margin-top: 40px;
+        justify-content: space-between;
+        padding: 0px;
     }
 
-    .feedback img{
-        width: 350px;
+    .feedback-common-style{
+        padding: 10px 30px;
+    }
+
+    .feedback-common-style p{
+        width: 290px;
     }
 
     .heading .testimonial-hr{
@@ -712,7 +770,9 @@ color: #F3F3F3;
     .heading{
         margin-bottom: -20px;
     }
-
+     
+    
+   
     /*---------Our tem_section_styles---------*/
     .our-team{
         margin: 80px 85px 0px 95px;
